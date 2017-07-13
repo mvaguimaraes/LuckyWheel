@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/background_lucky">
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:hint="Email Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:layout_marginBottom="60dp"
+        android:background="#00a300"
+        android:textColor="#175936"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/btn_home"
+        android:layout_gravity="center_horizontal"
+        android:background="#00a300"
+        android:textColor="#175936" />
+
+</LinearLayout>
